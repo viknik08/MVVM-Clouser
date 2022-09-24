@@ -1,5 +1,5 @@
 //
-//  ViewData.swift
+//  Model.swift
 //  MVVM + Clouser
 //
 //  Created by Виктор Басиев on 15.09.2022.

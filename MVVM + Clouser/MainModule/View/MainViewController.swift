@@ -19,7 +19,6 @@ class MainViewController: UIViewController {
         creatView()
         setupTargetButton()
         updateView()
-
     }
     
     private func creatView() {
@@ -32,14 +31,12 @@ class MainViewController: UIViewController {
     private func updateView() {
         viewModel.updateViewData = { [weak self] viewData in
             self?.testView.viewData = viewData
-            
         }
     }
+    
     private func setupTargetButton() {
         testView.startButton.addTarget(self, action: #selector(startAction), for: .touchUpInside)
     }
-
-
 }
 
 extension MainViewController {
